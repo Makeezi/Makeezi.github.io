@@ -30,9 +30,7 @@ header {
     padding-left: 1em;   
 }
 
-.kesk {
-    
-}
+
 
 .oik {
     padding-right: 1em;
@@ -73,9 +71,12 @@ section { grid-area: section;
 footer { grid-area: footer;
     border: 0.1em solid rgb(77, 77, 77);
     background-color: rgb(77, 77, 77);
-    height: 100px;
+    
 }
-
+.kysely {
+    text-align: center;
+    border: 2px solid white;
+}
 article { grid-area: main; 
     
     

@@ -18,7 +18,7 @@
                 <h2></h2>
             </div>
             <div class="oik">
-                <h2><a class="navbutton" href="gridi.1.kysely.html">oik</a></h1>
+                <h2><a class="navbutton" href="gridi.1.html">oik</a></h1>
             </div>
         </nav>
     <header class="ylaruutu">
@@ -39,7 +39,20 @@
         <h2>article</h2>
     </article>
     <footer class="footer">
-        <h2></h2>
+        <div class="kysely">
+            <pre>
+            <form action="somePHPpage.php" method="post">
+                Etunimi: <input type="text" name="firstname" maxlength=30>
+                Ikä: <input type="number" name="age">
+                
+                <input type="radio" name="gender" value="man">Mies<br>
+                <input type="radio" name="gender" value="female">Nainen<br>
+                <input type="radio" name="gender" value="other" checked>Muu<br>
+            </form>
+            Anna palautetta: <input type="text" name="firstname" maxlength=4000>
+            <input type="submit" value="Lähetä">
+        </pre>
+        </div>
     </footer>
     
 </body>
